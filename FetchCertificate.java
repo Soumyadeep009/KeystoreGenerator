@@ -24,7 +24,7 @@ public class FetchCertificate {
 	} else {
 	    System.out.println("Steps to execute the jar");
 	    System.out.println("-------------------------------------------------------");
-	    System.out.println("java -jar GenerateCertificate.jar <RDS-host>:<SSL_PORT>");
+	    System.out.println("java -jar <name-of-the-jar.jar> <RDS-host>:<SSL_PORT>");
 	    System.out.println("-------------------------------------------------------");
 	    return;
 	}
@@ -137,8 +137,8 @@ public class FetchCertificate {
 		System.out.println("---------------------------------------------------------------------------------------");
 		System.out.println("Tool to generate Keystore imported with the latest certificates authorised to a domain.");
 		System.out.println("---------------------------------------------------------------------------------------");
-		System.out.println("By: Soumyadeep Biswas(Y0QTJAG)");
-		System.out.println("Contact: BiswasSoumyadeep@JohnDeere.com");
+		System.out.println("By: Soumyadeep Biswas");
+		System.out.println("Contact: soumyadeep009@gmail.com");
 		System.out.println("---------------------------------------------------------------------------------------");
     }
 
