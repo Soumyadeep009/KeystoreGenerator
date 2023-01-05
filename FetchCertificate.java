@@ -26,6 +26,7 @@ public class FetchCertificate {
 	    System.out.println("-------------------------------------------------------");
 	    System.out.println("java -jar <name-of-the-jar.jar> <RDS-host>:<SSL_PORT>");
 	    System.out.println("-------------------------------------------------------");
+		System.out.println("-------------------------------------------------------");
 	    return;
 	}
 
